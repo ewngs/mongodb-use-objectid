@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-helpers",
+  "version": "0.1.0",
+  "description": "Simple helper functions for mongodb",
+  "main": "mongodb-helpers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewngs/mongodb-helpers.git"
+  },
+  "keywords": [
+    "mongodb",
+    "helper",
+    "utils"
+  ],
+  "author": {
+    "name": "Igor Muchychka",
+    "email": "mucsi_96@yahoo.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewngs/mongodb-helpers/issues"
+  },
+  "homepage": "https://github.com/ewngs/mongodb-helpers#readme",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "mongodb-core": "^1.2.9"
+  }
+}
