@@ -1,10 +1,5 @@
-[![Build Status](https://travis-ci.org/ewngs/mongodb-helpers.svg?branch=master)](https://travis-ci.org/ewngs/mongodb-helpers)
-# mongodb-helpers
-Simple helper functions for mongodb
+'use strict';
 
-## Specification / Usage
-
-```
 const test = require('tape');
 const useObjectId = require('../lib/mongodb-helpers').useObjectId;
 
@@ -89,4 +84,3 @@ test('handles deep object with multiple given fields and arrays', t => {
     t.ok(result.types[1].basetwo.subtypes[0].base._id.id.length, 12);
     t.end();
 });
-```

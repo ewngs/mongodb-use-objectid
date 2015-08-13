@@ -1,10 +1,10 @@
 {
   "name": "mongodb-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple helper functions for mongodb",
-  "main": "mongodb-helpers.js",
+  "main": "lib/mongodb-helpers.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "iojs --harmony_arrow_functions test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/ewngs/mongodb-helpers#readme",
   "dependencies": {
-    "merge": "^1.2.0",
-    "mongodb-core": "^1.2.9"
+    "bson": "^0.4.11"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.3"
   }
 }
