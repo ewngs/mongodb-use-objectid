@@ -4,7 +4,7 @@ Simple helper functions for mongodb
 
 ## Specification / Usage
 
-```
+```javascript
 const test = require('tape');
 const useObjectId = require('../lib/mongodb-helpers').useObjectId;
 
