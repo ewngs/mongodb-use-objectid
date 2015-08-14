@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ewngs/mongodb-use-objectid.svg?branch=master)](https://travis-ci.org/ewngs/mongodb-use-objectid)
 # mongodb-use-objectid
-Simple helper functions for mongodb
+Replace string ids with objectId. Works for single string ids, simple document objects and deep document objects containing arrays as well
 
 ## Specification / Usage
 
