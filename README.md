@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/ewngs/mongodb-helpers.svg?branch=master)](https://travis-ci.org/ewngs/mongodb-helpers)
-# mongodb-helpers
+[![Build Status](https://travis-ci.org/ewngs/mongodb-use-objectid.svg?branch=master)](https://travis-ci.org/ewngs/mongodb-use-objectid)
+# mongodb-use-objectid
 Simple helper functions for mongodb
 
 ## Specification / Usage
 
 ```javascript
 const test = require('tape');
-const useObjectId = require('../lib/mongodb-helpers').useObjectId;
+const useObjectId = require('../lib/mongodb-use-objectid');
 
 test('handles undefined value', t => {
     const result = useObjectId(undefined);

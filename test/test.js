@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('tape');
-const useObjectId = require('../lib/mongodb-helpers').useObjectId;
+const useObjectId = require('../lib/mongodb-use-objectid');
 
 test('handles undefined value', t => {
     const result = useObjectId(undefined);

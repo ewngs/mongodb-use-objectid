@@ -1,14 +1,14 @@
 {
-  "name": "mongodb-helpers",
-  "version": "0.1.3",
-  "description": "Simple helper functions for mongodb",
-  "main": "lib/mongodb-helpers.js",
+  "name": "mongodb-use-objectid",
+  "version": "0.1.0",
+  "description": "Replace string ids with objectId. Works for single string ids, simple document objects and deep document objects containg arrays as well",
+  "main": "lib/mongodb-use-objectid.js",
   "scripts": {
     "test": "iojs --harmony_arrow_functions test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ewngs/mongodb-helpers.git"
+    "url": "git+https://github.com/ewngs/mongodb-use-objectid.git"
   },
   "keywords": [
     "mongodb",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ewngs/mongodb-helpers/issues"
+    "url": "https://github.com/ewngs/mongodb-use-objectid/issues"
   },
-  "homepage": "https://github.com/ewngs/mongodb-helpers#readme",
+  "homepage": "https://github.com/ewngs/mongodb-use-objectid#readme",
   "dependencies": {
     "bson": "^0.4.11"
   },
