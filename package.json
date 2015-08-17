@@ -1,6 +1,6 @@
 {
   "name": "mongodb-use-objectid",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Replace string ids with objectId. Works for single string ids, simple document objects and deep document objects containg arrays as well",
   "main": "lib/mongodb-use-objectid.js",
   "scripts": {
