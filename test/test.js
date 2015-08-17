@@ -88,6 +88,7 @@ test('handles deep object with multiple given fields and arrays', t => {
 test('should leave other properties as is', t => {
     const document = {
         _id: '55af3dabd69361923fc86804',
+        arr: ['TestItem'],
         name: 'TestName',
         base: {
             description: 'TestDescription',
@@ -103,6 +104,7 @@ test('should leave other properties as is', t => {
     const result = useObjectId(document, ['_id', 'base.type']);
 
     t.equal(result.name, 'TestName');
+    t.equal(result.arr[0], 'TestItem');
     t.equal(result.base.description, 'TestDescription');
     t.equal(result.spec.size, 5);
     t.equal(result.spec.items[0].name, 'item1');
